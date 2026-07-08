@@ -5,218 +5,107 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Prime Power Korea | Diesel & Gas Generator Solutions</title>
   <meta name="description" content="Prime Power Korea provides diesel and gas generator solutions for industrial, commercial, telecom, construction, mining, hospital and critical backup power applications worldwide." />
-  <style>
-    :root{
-      --navy:#061f36;--blue:#0b4f86;--sky:#1d9bf0;--gold:#f5b33f;--text:#1f2937;--muted:#6b7280;--light:#f4f7fb;--white:#fff;
-    }
-    *{box-sizing:border-box}
-    body{margin:0;font-family:Inter,Arial,sans-serif;color:var(--text);background:#fff}
-    a{text-decoration:none;color:inherit}
-    header{position:sticky;top:0;z-index:20;background:rgba(6,31,54,.94);backdrop-filter:blur(10px);border-bottom:1px solid rgba(255,255,255,.12)}
-    .nav{max-width:1180px;margin:auto;padding:18px 24px;display:flex;align-items:center;justify-content:space-between;color:white}
-    .brand{display:flex;gap:14px;align-items:center;font-weight:900;letter-spacing:.08em}
-    .mark{width:46px;height:46px;border:2px solid rgba(255,255,255,.55);border-radius:12px;display:grid;place-items:center;font-weight:900}
-    nav{display:flex;gap:28px;font-weight:700;font-size:15px}
-    .hero{background:linear-gradient(120deg,rgba(6,31,54,.96),rgba(11,79,134,.92)),radial-gradient(circle at 80% 30%,rgba(29,155,240,.35),transparent 35%);color:white}
-    .hero-inner{max-width:1180px;margin:auto;padding:120px 24px 90px;display:grid;grid-template-columns:1.1fr .9fr;gap:54px;align-items:center}
-    .eyebrow{color:var(--sky);font-weight:900;letter-spacing:.18em;text-transform:uppercase;font-size:13px}
-    h1{font-size:76px;line-height:.96;margin:18px 0 22px;letter-spacing:-.05em}
-    .hero p{font-size:22px;line-height:1.55;color:#dbeafe;max-width:720px}
-    .actions{display:flex;gap:14px;margin-top:30px;flex-wrap:wrap}
-    .btn{padding:15px 24px;border-radius:999px;font-weight:900;display:inline-flex;align-items:center;gap:8px}
-    .primary{background:var(--gold);color:#071f36}
-    .secondary{border:1px solid rgba(255,255,255,.35);color:white}
-    .hero-card{background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.14);border-radius:28px;padding:28px;box-shadow:0 30px 80px rgba(0,0,0,.22)}
-    .spec-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px}
-    .spec{background:rgba(255,255,255,.09);border-radius:18px;padding:18px}
-    .spec b{display:block;font-size:28px;color:white}
-    .spec span{font-size:13px;color:#bfdbfe}
-    section{padding:86px 24px}
-    .wrap{max-width:1180px;margin:auto}
-    .section-head{display:flex;justify-content:space-between;gap:30px;align-items:end;margin-bottom:34px}
-    h2{font-size:42px;line-height:1.06;margin:0;color:var(--navy);letter-spacing:-.035em}
-    .lead{color:var(--muted);font-size:18px;line-height:1.7;max-width:650px}
-    .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
-    .card{border:1px solid #e5e7eb;border-radius:24px;padding:28px;background:white;box-shadow:0 16px 50px rgba(6,31,54,.06)}
-    .card:hover{transform:translateY(-4px);transition:.25s;box-shadow:0 24px 70px rgba(6,31,54,.12)}
-    .icon{width:46px;height:46px;border-radius:14px;background:#eaf5ff;color:var(--blue);display:grid;place-items:center;font-size:22px;margin-bottom:18px}
-    h3{font-size:22px;margin:0 0 10px;color:var(--navy)}
-    .card p,.muted{color:var(--muted);line-height:1.7;margin:0}
-    .light{background:var(--light)}
-    .brands{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
-    .brand-box{background:white;border:1px solid #e5e7eb;border-radius:18px;padding:24px;font-weight:900;color:var(--navy);display:flex;justify-content:space-between;align-items:center}
-    .brand-box span{color:var(--sky)}
-    .split{display:grid;grid-template-columns:.9fr 1.1fr;gap:40px;align-items:center}
-    .panel{background:var(--navy);color:white;border-radius:30px;padding:38px}
-    .panel h2{color:white}
-    .panel p{color:#cbd5e1}
-    .list{display:grid;gap:16px;margin-top:24px}
-    .list div{padding:16px 18px;background:rgba(255,255,255,.08);border-radius:16px;color:#e5f1ff}
-    .contact{background:linear-gradient(120deg,var(--navy),var(--blue));color:white}
-    .contact h2{color:white}
-    .contact .lead{color:#dbeafe}
-    .contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:22px;margin-top:34px}
-    .contact-card{background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.16);border-radius:22px;padding:26px}
-    footer{background:#031525;color:#94a3b8;padding:34px 24px}
-    .foot{max-width:1180px;margin:auto;display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}
-    .floating{position:fixed;right:24px;bottom:24px;width:58px;height:58px;border-radius:50%;background:var(--gold);color:#061f36;display:grid;place-items:center;font-weight:900;box-shadow:0 18px 45px rgba(0,0,0,.25);z-index:30}
-    @media(max-width:900px){
-      nav{display:none}.hero-inner,.split,.contact-grid{grid-template-columns:1fr}h1{font-size:52px}.grid,.brands{grid-template-columns:1fr}.section-head{display:block}.hero-inner{padding-top:80px}
-    }
-  </style>
+  <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
-<header>
-  <div class="nav">
-    <a class="brand" href="#"><div class="mark">PPK</div><div>PRIME POWER KOREA</div></a>
-    <nav>
-      <a href="#products">Products</a><a href="#solutions">Solutions</a><a href="#brands">Brands</a><a href="#projects">Projects</a><a href="#contact">Contact</a>
+<header class="site-header">
+  <div class="container nav-wrap">
+    <a class="brand" href="index.html"><span class="brand-mark">PPK</span><span>PRIME POWER KOREA</span></a>
+    <button class="menu-btn" aria-label="Open menu">☰</button>
+    <nav class="nav-menu">
+      <a href="products.html">Products</a>
+      <a href="solutions.html">Solutions</a>
+      <a href="brands.html">Brands</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
     </nav>
   </div>
 </header>
 
 <main>
-  <section class="hero">
-    <div class="hero-inner">
-      <div>
-        <div class="eyebrow">Korean-based Power Solutions Provider</div>
-        <h1>Reliable Power.<br>Trusted Partner.</h1>
-        <p>Diesel and gas generator solutions for industrial, commercial and critical backup power applications worldwide.</p>
-        <div class="actions">
-          <a class="btn primary" href="#contact">Request a Quote</a>
-          <a class="btn secondary" href="#products">View Products</a>
-        </div>
-      </div>
-      <div class="hero-card">
-        <div class="spec-grid">
-          <div class="spec"><b>2–3000kW</b><span>Power range</span></div>
-          <div class="spec"><b>50/60Hz</b><span>Frequency options</span></div>
-          <div class="spec"><b>Diesel & Gas</b><span>Generator systems</span></div>
-          <div class="spec"><b>Global</b><span>Export support</span></div>
-        </div>
-      </div>
+<section class="hero">
+  <div class="container hero-grid">
+    <div>
+      <p class="eyebrow">Korean-based Power Solutions Provider</p>
+      <h1>Reliable Power.<br>Trusted Partner.</h1>
+      <p class="hero-copy">Diesel and gas generator solutions for industrial, commercial and critical backup power applications worldwide.</p>
+      <div class="actions"><a class="btn primary" href="contact.html">Request a Quote</a><a class="btn ghost" href="products.html">View Products</a></div>
     </div>
-  </section>
+    <div class="hero-panel">
+      <div><strong>2–3000kW</strong><span>Power range</span></div>
+      <div><strong>50/60Hz</strong><span>Frequency options</span></div>
+      <div><strong>Diesel & Gas</strong><span>Generator systems</span></div>
+      <div><strong>Global</strong><span>Export support</span></div>
+    </div>
+  </div>
+</section>
 
-  <section>
-    <div class="wrap section-head">
-      <div>
-        <div class="eyebrow">About PPK</div>
-        <h2>Power solutions built for real projects.</h2>
-      </div>
-      <p class="lead">Prime Power Korea supports customers with generator selection, OEM supply, technical coordination, export support and responsive communication from South Korea.</p>
-    </div>
-  </section>
+<section class="section">
+  <div class="container split">
+    <div><p class="eyebrow">About PPK</p><h2>Power solutions built for real projects.</h2></div>
+    <p class="lead">Prime Power Korea supports customers with generator selection, OEM supply, technical coordination, export support and responsive communication from South Korea. We do not list fixed online prices because every generator project requires a customized specification and quotation.</p>
+  </div>
+</section>
 
-  <section id="products" class="light">
-    <div class="wrap">
-      <div class="section-head">
-        <div><div class="eyebrow">Products</div><h2>Generator systems and power equipment</h2></div>
-        <p class="lead">No fixed online pricing. Every project is quoted according to power demand, voltage, frequency, engine brand, canopy type and destination.</p>
-      </div>
-      <div class="grid">
-        <div class="card"><div class="icon">⚡</div><h3>Diesel Generator Sets</h3><p>Open, silent, trailer and containerized generator sets for standby and prime power.</p></div>
-        <div class="card"><div class="icon">🔥</div><h3>Gas Generator Sets</h3><p>Natural gas, LPG, biogas, methanol and other clean fuel generator solutions.</p></div>
-        <div class="card"><div class="icon">🔇</div><h3>Silent Generator Sets</h3><p>Low-noise generator systems for buildings, hospitals, hotels and urban sites.</p></div>
-        <div class="card"><div class="icon">🚚</div><h3>Trailer & Mobile Power</h3><p>Flexible mobile power solutions for rental, construction and temporary projects.</p></div>
-        <div class="card"><div class="icon">🏗️</div><h3>Container Generator</h3><p>Heavy-duty containerized generator systems for large industrial applications.</p></div>
-        <div class="card"><div class="icon">🧩</div><h3>ATS & Control Panels</h3><p>Automatic transfer switches, synchronization panels and customized control systems.</p></div>
-      </div>
+<section class="section light" id="products">
+  <div class="container">
+    <div class="section-head"><p class="eyebrow">Products</p><h2>Generator systems and power equipment</h2><p class="lead">From standby backup power to continuous operation, we help match configuration with load profile, environment, fuel availability and budget.</p></div>
+    <div class="cards three">
+      <article class="card"><span class="icon">⚡</span><h3>Diesel Generator Sets</h3><p>Open, silent, trailer and containerized generator sets for standby and prime power applications.</p></article>
+      <article class="card"><span class="icon">🔥</span><h3>Gas Generator Sets</h3><p>Natural gas, LPG, biogas and other gas power solutions for continuous operation.</p></article>
+      <article class="card"><span class="icon">🔇</span><h3>Silent Generator Sets</h3><p>Low-noise generator systems for hospitals, hotels, buildings and urban sites.</p></article>
+      <article class="card"><span class="icon">🚚</span><h3>Trailer & Mobile Power</h3><p>Flexible power for rental, construction, temporary sites and emergency projects.</p></article>
+      <article class="card"><span class="icon">🏗</span><h3>Container Generator</h3><p>Heavy-duty containerized systems for large industrial and remote power projects.</p></article>
+      <article class="card"><span class="icon">🧩</span><h3>ATS & Panels</h3><p>ATS, synchronization panels and customized control systems for reliable power transfer.</p></article>
     </div>
-  </section>
+  </div>
+</section>
 
-  <section id="solutions">
-    <div class="wrap split">
-      <div class="panel">
-        <div class="eyebrow">Solutions</div>
-        <h2>From backup power to continuous operation.</h2>
-        <p class="lead">We help customers match generator configuration with actual operating conditions, fuel availability, load profile and project environment.</p>
-      </div>
-      <div class="grid" style="grid-template-columns:1fr 1fr">
-        <div class="card"><h3>Emergency Backup</h3><p>Hospitals, data centers and commercial buildings.</p></div>
-        <div class="card"><h3>Prime Power</h3><p>Factories, construction sites and remote areas.</p></div>
-        <div class="card"><h3>Continuous Power</h3><p>Gas, biogas and industrial energy applications.</p></div>
-        <div class="card"><h3>Project Supply</h3><p>Customized generator packages for export projects.</p></div>
-      </div>
+<section class="section" id="solutions">
+  <div class="container split reverse">
+    <div class="dark-panel"><p class="eyebrow">Solutions</p><h2>From backup power to continuous operation.</h2><p>We help customers select generator systems based on project conditions, duty rating, fuel type, voltage, installation environment and destination requirements.</p></div>
+    <div class="solution-list">
+      <div><strong>Emergency Backup</strong><span>Hospitals, data centers, commercial buildings</span></div>
+      <div><strong>Prime Power</strong><span>Factories, construction sites, remote facilities</span></div>
+      <div><strong>Continuous Power</strong><span>Gas, biogas and industrial energy projects</span></div>
+      <div><strong>Project Supply</strong><span>Customized generator packages for export</span></div>
     </div>
-  </section>
+  </div>
+</section>
 
-  <section id="brands" class="light">
-    <div class="wrap">
-      <div class="section-head">
-        <div><div class="eyebrow">Engine Series</div><h2>Multiple brand options for different budgets and applications</h2></div>
-      </div>
-      <div class="brands">
-        <div class="brand-box">Cummins <span>→</span></div>
-        <div class="brand-box">Perkins <span>→</span></div>
-        <div class="brand-box">Volvo Penta <span>→</span></div>
-        <div class="brand-box">MTU <span>→</span></div>
-        <div class="brand-box">Baudouin <span>→</span></div>
-        <div class="brand-box">Weichai <span>→</span></div>
-        <div class="brand-box">Yuchai <span>→</span></div>
-        <div class="brand-box">Shangchai <span>→</span></div>
-      </div>
+<section class="section light">
+  <div class="container">
+    <div class="section-head"><p class="eyebrow">Engine Series</p><h2>Multiple options for different budgets and applications</h2></div>
+    <div class="brand-grid">
+      <span>Cummins</span><span>Perkins</span><span>Volvo Penta</span><span>MTU</span><span>Baudouin</span><span>Weichai</span><span>Yuchai</span><span>Shangchai</span>
     </div>
-  </section>
+  </div>
+</section>
 
-  <section id="projects">
-    <div class="wrap section-head">
-      <div>
-        <div class="eyebrow">Applications</div>
-        <h2>Designed for industrial and critical environments</h2>
-      </div>
-      <p class="lead">Our generator solutions can be configured for construction, mining, telecom, hospital, data center, manufacturing, agriculture, oil & gas and commercial facilities.</p>
+<section class="section">
+  <div class="container">
+    <div class="section-head"><p class="eyebrow">Applications</p><h2>Designed for industrial and critical environments</h2></div>
+    <div class="cards three compact">
+      <article class="card"><h3>Data Center</h3><p>High-reliability standby power.</p></article>
+      <article class="card"><h3>Hospital</h3><p>Emergency backup with ATS support.</p></article>
+      <article class="card"><h3>Mining</h3><p>Heavy-duty power for remote sites.</p></article>
+      <article class="card"><h3>Construction</h3><p>Durable site power solutions.</p></article>
+      <article class="card"><h3>Telecom</h3><p>Backup for communication infrastructure.</p></article>
+      <article class="card"><h3>Manufacturing</h3><p>Prime and standby power for factories.</p></article>
     </div>
-    <div class="wrap grid">
-      <div class="card"><h3>Data Center</h3><p>High-reliability standby power for critical operations.</p></div>
-      <div class="card"><h3>Hospital</h3><p>Emergency backup with ATS and fast response support.</p></div>
-      <div class="card"><h3>Mining</h3><p>Heavy-duty power for remote and harsh environments.</p></div>
-      <div class="card"><h3>Construction</h3><p>Durable power for job sites and temporary projects.</p></div>
-      <div class="card"><h3>Telecom</h3><p>Backup power for communication infrastructure.</p></div>
-      <div class="card"><h3>Manufacturing</h3><p>Prime and standby power for production facilities.</p></div>
-    </div>
-  </section>
+  </div>
+</section>
 
-  <section class="light">
-    <div class="wrap split">
-      <div>
-        <div class="eyebrow">Why Choose Us</div>
-        <h2>Korean communication, global supply capability.</h2>
-        <p class="lead">Prime Power Korea focuses on responsive communication, project coordination and suitable generator selection for international customers.</p>
-      </div>
-      <div class="list">
-        <div>✓ Customized generator configuration</div>
-        <div>✓ Diesel, gas and clean fuel options</div>
-        <div>✓ Export documentation and delivery coordination</div>
-        <div>✓ Technical support before and after quotation</div>
-      </div>
-    </div>
-  </section>
-
-  <section id="contact" class="contact">
-    <div class="wrap">
-      <div class="eyebrow">Contact</div>
-      <h2>Request a generator quotation</h2>
-      <p class="lead">Tell us your required power, frequency, voltage, application, preferred engine brand and destination country.</p>
-      <div class="contact-grid">
-        <div class="contact-card"><h3 style="color:white">Email</h3><p>primepowerkorea@gmail.com</p></div>
-        <div class="contact-card"><h3 style="color:white">Website</h3><p>www.primepowerkorea.com</p></div>
-      </div>
-      <div class="actions">
-        <a class="btn primary" href="mailto:primepowerkorea@gmail.com?subject=Generator%20Quotation%20Request">Send Inquiry</a>
-        <a class="btn secondary" href="#products">View Product Range</a>
-      </div>
-    </div>
-  </section>
+<section class="cta">
+  <div class="container split">
+    <div><p class="eyebrow">Request Quote</p><h2>Tell us your generator requirement.</h2><p class="lead">Share required power, voltage, frequency, application, preferred engine brand and destination country. We will respond with a suitable configuration.</p></div>
+    <div class="actions vertical"><a class="btn primary" href="mailto:primepowerkorea@gmail.com?subject=Generator%20Quotation%20Request">Send Inquiry</a><a class="btn ghost" href="contact.html">Contact Page</a></div>
+  </div>
+</section>
 </main>
 
-<a class="floating" href="mailto:primepowerkorea@gmail.com" title="Email">✉</a>
-
-<footer>
-  <div class="foot">
-    <div><b>PRIME POWER KOREA</b><br>Korean-based Power Solutions Provider</div>
-    <div>© 2026 Prime Power Korea. All rights reserved.</div>
-  </div>
-</footer>
+<a class="floating" href="mailto:primepowerkorea@gmail.com" title="Email Prime Power Korea">✉</a>
+<footer class="footer"><div class="container footer-grid"><div><strong>PRIME POWER KOREA</strong><p>Korean-based Power Solutions Provider</p></div><div>© 2026 Prime Power Korea. All rights reserved.</div></div></footer>
+<script src="js/main.js"></script>
 </body>
 </html>
