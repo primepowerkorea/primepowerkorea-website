@@ -1,1 +1,3 @@
-document.querySelectorAll('.menu-btn').forEach(b=>b.onclick=()=>document.querySelector('.nav-menu')?.classList.toggle('open'));
+const btn=document.querySelector('.menu-btn');
+const menu=document.querySelector('.nav-menu');
+if(btn&&menu){btn.addEventListener('click',()=>menu.classList.toggle('open'));}
