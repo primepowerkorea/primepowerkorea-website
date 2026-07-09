@@ -1,5 +1,109 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Engine Brands | Prime Power Korea</title><meta name="description" content="Engine series options including Cummins, Perkins, Volvo Penta, MTU, Baudouin, Weichai, Yuchai and Shangchai."><link rel="stylesheet" href="css/style.css"></head><body>
-<header class="site-header"><div class="container nav-wrap"><a class="brand" href="index.html"><span class="brand-mark">PPK</span><span>PRIME POWER KOREA</span></a><button class="menu-btn">☰</button><nav class="nav-menu"><a href="products.html">Products</a><a href="solutions.html">Solutions</a><a href="brands.html">Brands</a><a href="about.html">About</a><a href="contact.html">Contact</a></nav></div></header>
-<section class="page-hero"><div class="container"><p class="eyebrow">Engine Series</p><h1>Multiple engine options for different project requirements</h1><p>Brand selection depends on power rating, budget, fuel quality, maintenance environment and customer preference.</p></div></section>
-<section class="section light"><div class="container"><div class="brand-grid large"><span>Cummins</span><span>Perkins</span><span>Volvo Penta</span><span>MTU</span><span>Baudouin</span><span>Weichai</span><span>Yuchai</span><span>Shangchai</span><span>Doosan</span><span>Ricardo</span><span>Lovol</span><span>Customized</span></div></div></section>
-<footer class="footer"><div class="container footer-grid"><div><strong>PRIME POWER KOREA</strong><p>Korean-based Power Solutions Provider</p></div><div>© 2026 Prime Power Korea.</div></div></footer><script src="js/main.js"></script></body></html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Global Brands | Prime Power Korea</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .brand-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 40px; margin-top: 40px; }
+        .brand-card { background: white; border: 1px solid var(--border-color); padding: 30px; text-align: center; border-radius: 4px; transition: all 0.3s ease; }
+        .brand-card:hover { border-color: var(--primary-color); transform: translateY(-5px); box-shadow: 0 10px 20px rgba(0,0,0,0.05); }
+        .brand-logo-placeholder { background: #f1f1f1; height: 80px; display: flex; align-items: center; justify-content: center; font-size: 20px; font-weight: 700; color: #333; letter-spacing: 1px; margin-bottom: 20px; text-transform: uppercase; border-left: 4px solid var(--primary-color); }
+        .brand-badge { display: inline-block; padding: 3px 10px; background: #eef2f7; color: var(--primary-color); font-size: 12px; font-weight: 600; margin-bottom: 15px; border-radius: 2px; }
+    </style>
+</head>
+<body>
+
+    <!-- 导航栏 -->
+    <header>
+        <div class="nav-container">
+            <div class="logo"><a href="index.html">PRIME POWER<span> KOREA</span></a></div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="brands.html" class="active">Brands</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="solutions.html">Solutions</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <button class="lang-switch" id="langToggle">EN</button>
+        </div>
+    </header>
+
+    <!-- 巨幕 Banner -->
+    <section class="hero-section">
+        <div class="hero-content">
+            <h1>WORLD-CLASS ENGINE ALLIANCES</h1>
+            <p>Integrating Global Top-Tier Power Systems With Precision Integration</p>
+        </div>
+    </section>
+
+    <!-- 品牌矩阵网格 -->
+    <section class="section-padding container">
+        <div class="section-title">Authorized Power Partners</div>
+        <p style="text-align: center; color: var(--gray-muted); max-width: 700px; margin: -30px auto 50px auto;">We partner with the world's most trusted internal combustion engine and alternator manufacturers to ensure your critical operations never lose momentum.</p>
+        
+        <div class="brand-grid">
+            <!-- 1. 重庆康明斯 -->
+            <div class="brand-card">
+                <div class="brand-logo-placeholder">CCEC CUMMINS</div>
+                <span class="brand-badge">Heavy Duty Industrial</span>
+                <p style="font-size: 14px; color: var(--gray-muted); text-align: left;">High-displacement power systems ranging from 200kW to 1500kW. Ideal for heavy industrial baseloads, data centers, and rigorous mining environments.</p>
+            </div>
+
+            <!-- 2. 东风康明斯 -->
+            <div class="brand-card">
+                <div class="brand-logo-placeholder">DCEC CUMMINS</div>
+                <span class="brand-badge">Mid-to-High Output</span>
+                <p style="font-size: 14px; color: var(--gray-muted); text-align: left;">Covering 15kW to 450kW. Fully compliant with international 50Hz/60Hz standards and advanced Stage III electronic ECU control platforms.</p>
+            </div>
+
+            <!-- 3. 奔驰 MTU -->
+            <div class="brand-card">
+                <div class="brand-logo-placeholder">MTU BERLIN</div>
+                <span class="brand-badge">Premium Heavy Duty</span>
+                <p style="font-size: 14px; color: var(--gray-muted); text-align: left;">The gold standard for critical power backup (200kW - 2500kW). Exceptional transient response and uncompromising reliability for high-end markets.</p>
+            </div>
+
+            <!-- 4. 珀金斯 Perkins -->
+            <div class="brand-card">
+                <div class="brand-logo-placeholder">PERKINS</div>
+                <span class="brand-badge">Global Versatility</span>
+                <p style="font-size: 14px; color: var(--gray-muted); text-align: left;">A Caterpillar company brand. Offers rapid market penetration and massive cost-to-performance efficiency for commercial construction sectors.</p>
+            </div>
+
+            <!-- 5. 远洋船机系列 -->
+            <div class="brand-card">
+                <div class="brand-logo-placeholder">MARINE MARINE</div>
+                <span class="brand-badge">CCS / ABS Certified</span>
+                <p style="font-size: 14px; color: var(--gray-muted); text-align: left;">Specialized marine gensets utilizing CCEC, DCEC, and Weichai marine-grade platforms, fully adapted for maritime engineering and high-seas fleets.</p>
+            </div>
+
+            <!-- 6. 亚洲战略矩阵 -->
+            <div class="brand-card">
+                <div class="brand-logo-placeholder">WEICHAI & YUCHAI</div>
+                <span class="brand-badge">High Cost-Efficiency</span>
+                <p style="font-size: 14px; color: var(--gray-muted); text-align: left;">Leveraging Asia’s premier tier-1 manufacturing champions. Delivers extreme durability, vast parts availability, and robust economics for international turnkey bidding.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 页脚 -->
+    <footer>
+        <div class="footer-container">
+            <div>
+                <h3>PRIME POWER KOREA</h3>
+                <p style="font-size: 12px; margin-top: 10px;">© 2026 Prime Power Korea. All Rights Reserved.</p>
+            </div>
+            <div style="font-size: 12px; text-align: right;">
+                <p>Email: info@primepowerkorea.com</p>
+                <p>Global Manufacturing Base | Quality Assured in Korea</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
