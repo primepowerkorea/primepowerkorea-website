@@ -458,3 +458,18 @@ h2{
     font-size:14px
   }
 }
+.hero-machine{
+
+    width:100%;
+
+    height:auto;
+
+    border-radius:18px;
+
+    margin-bottom:18px;
+
+    display:block;
+
+    grid-column:1 / 3;
+
+}
