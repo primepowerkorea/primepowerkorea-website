@@ -1,0 +1,19 @@
+PRIME POWER KOREA – GitHub upload instructions (v9)
+
+1. Unzip this package.
+2. In the GitHub repository, upload and replace ALL files and folders together.
+3. Keep this exact structure:
+   css/style.css
+   js/main.js
+   images/home/hero-warehouse.webp
+   index.html
+   products.html
+   solutions.html
+   brands.html
+   about.html
+   contact.html
+4. Commit the changes.
+5. Wait for GitHub Actions / Pages deployment to finish.
+6. On Mac, refresh with Command + Shift + R.
+
+The index page references css/style.css?v=9 to bypass the old browser cache.
