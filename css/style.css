@@ -203,15 +203,23 @@ img{max-width:100%;display:block}
 }
 
 .hero-visual{
+  position:relative;
   min-height:610px;
   display:flex;
   align-items:stretch;
   justify-content:stretch;
   padding:0;
   overflow:hidden;
+
   background-image:
-    linear-gradient(90deg,rgba(255,255,255,.95) 0%,rgba(255,255,255,.60) 10%,rgba(255,255,255,.08) 28%,rgba(255,255,255,0) 100%),
+    linear-gradient(90deg,
+      rgba(255,255,255,1) 0%,
+      rgba(255,255,255,.72) 10%,
+      rgba(255,255,255,.18) 27%,
+      rgba(255,255,255,0) 48%
+    ),
     url("../images/home/hero-warehouse.webp");
+
   background-size:cover;
   background-position:center center;
   background-repeat:no-repeat;
