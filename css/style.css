@@ -551,7 +551,7 @@ body{
   .nav-wrap{min-height:100px}
   .brand{font-size:23px}
   .brand-mark{width:62px;height:62px;font-size:23px}
-  .nav-menu{font-size:22px;gap:52px}
+  .nav-menu{font-size:20px;gap:52px}
   .nav-menu a{padding:38px 0}
 
   .hero-copy-block{padding-top:92px;padding-bottom:62px}
