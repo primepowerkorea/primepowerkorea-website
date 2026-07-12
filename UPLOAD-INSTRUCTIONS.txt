@@ -1,0 +1,20 @@
+PRIME POWER KOREA — GitHub upload steps
+
+1. Keep your existing image at this exact path:
+   images/home/hero-warehouse.webp
+
+2. Upload and replace these files in the repository root:
+   index.html
+   products.html
+   solutions.html
+   brands.html
+   about.html
+   contact.html
+   css/style.css
+   js/main.js
+
+3. Commit directly to the main branch.
+
+4. After deployment, refresh with Command + Shift + R.
+
+The new homepage keeps the generator image separate from the four information cards.
