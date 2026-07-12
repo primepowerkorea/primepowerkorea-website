@@ -481,3 +481,117 @@ img{max-width:100%;display:block}
   .hero-stat strong{font-size:24px}
   .hero-stat span{font-size:16px}
 }
+
+/* ===== Corporate typography & spacing system (v10) ===== */
+body{
+  font-size:18px;
+  line-height:1.65;
+}
+
+.card p,.card li,
+.solution-list span,
+.contact-box p,
+.footer,
+.footer p{
+  font-size:18px;
+}
+
+.card h3{
+  font-size:26px;
+  line-height:1.25;
+  margin-bottom:13px;
+}
+.card p,.card li{line-height:1.75}
+.card{padding:36px}
+
+.section{padding:100px 0}
+.section-head{margin-bottom:44px}
+.section-head h2,h2{
+  font-size:48px;
+  line-height:1.12;
+  margin:12px 0 18px;
+}
+.lead{
+  font-size:21px;
+  line-height:1.75;
+}
+
+.solution-list{gap:19px}
+.solution-list div{padding:24px 26px}
+.solution-list strong{font-size:22px;margin-bottom:4px}
+
+.brand-grid span{
+  padding:30px;
+  font-size:21px;
+}
+
+.dark-panel{padding:52px}
+.dark-panel p{font-size:19px;line-height:1.75}
+.contact-box{padding:44px}
+.contact-box h3{font-size:23px;margin-top:22px}
+.contact-box h3:first-child{margin-top:0}
+
+.page-hero{padding:108px 0 98px}
+.page-hero h1{
+  font-size:clamp(56px,5.2vw,78px);
+  line-height:1.06;
+  max-width:1050px;
+}
+.page-hero p{
+  font-size:22px;
+  line-height:1.7;
+  max-width:850px;
+}
+
+.footer{padding:42px 0;font-size:17px}
+.footer strong{font-size:19px}
+.footer p{margin:6px 0 0;font-size:17px}
+
+@media (min-width:1351px){
+  .nav-wrap{min-height:100px}
+  .brand{font-size:23px}
+  .brand-mark{width:62px;height:62px;font-size:23px}
+  .nav-menu{font-size:22px;gap:52px}
+  .nav-menu a{padding:38px 0}
+
+  .hero-copy-block{padding-top:92px;padding-bottom:62px}
+  .eyebrow{font-size:19px}
+  .hero h1{font-size:clamp(72px,5.25vw,92px)}
+  .hero-copy{font-size:23px;line-height:1.65}
+  .btn{font-size:19px;min-height:62px;padding:18px 32px}
+
+  .hero-stat{min-height:204px;padding:43px 36px}
+  .hero-stat strong{font-size:31px}
+  .hero-stat span{font-size:19px}
+}
+
+@media (min-width:1001px) and (max-width:1350px){
+  .nav-menu{font-size:19px;gap:34px}
+  .brand{font-size:20px}
+  .page-hero p{font-size:20px}
+  .card h3{font-size:24px}
+  .card p,.card li,.solution-list span{font-size:17px}
+}
+
+@media (max-width:1000px){
+  body{font-size:17px}
+  .section{padding:78px 0}
+  .section-head h2,h2{font-size:40px}
+  .lead{font-size:19px}
+  .card{padding:28px}
+  .card h3{font-size:23px}
+  .card p,.card li,.solution-list span{font-size:17px}
+  .page-hero{padding:78px 0 70px}
+  .page-hero p{font-size:19px}
+}
+
+@media (max-width:760px){
+  .section{padding:64px 0}
+  .section-head h2,h2{font-size:35px}
+  .lead{font-size:18px}
+  .page-hero h1{font-size:46px}
+  .page-hero p{font-size:18px}
+  .card{padding:24px}
+  .card h3{font-size:22px}
+  .footer,.footer p{font-size:15px}
+}

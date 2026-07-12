@@ -1,7 +1,7 @@
-PRIME POWER KOREA – GitHub upload instructions (v9)
+PRIME POWER KOREA — GitHub Upload Instructions (V10)
 
 1. Unzip this package.
-2. In the GitHub repository, upload and replace ALL files and folders together.
+2. Upload ALL files and folders to the ROOT of your GitHub repository.
 3. Keep this exact structure:
    css/style.css
    js/main.js
@@ -12,8 +12,8 @@ PRIME POWER KOREA – GitHub upload instructions (v9)
    brands.html
    about.html
    contact.html
-4. Commit the changes.
-5. Wait for GitHub Actions / Pages deployment to finish.
-6. On Mac, refresh with Command + Shift + R.
+4. Replace existing files when prompted.
+5. Commit the changes and wait for GitHub Pages deployment to finish.
+6. Refresh the website with Command + Shift + R on Mac.
 
-The index page references css/style.css?v=9 to bypass the old browser cache.
+V10 enlarges navigation, body copy, page headings, cards, lists, contact details and footer text across the entire website.
