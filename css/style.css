@@ -225,7 +225,27 @@ img{max-width:100%;display:block}
   background-repeat:no-repeat;
 }
 
-.hero-visual::before{display:none}
+.hero-visual::before{
+  content:"";
+  position:absolute;
+  inset:0;
+  pointer-events:none;
+  z-index:1;
+
+  background:
+    linear-gradient(to right,
+      transparent 72%,
+      rgba(255,255,255,.18) 84%,
+      rgba(255,255,255,.78) 96%,
+      #fff 100%
+    ),
+    linear-gradient(to bottom,
+      transparent 68%,
+      rgba(255,255,255,.16) 80%,
+      rgba(255,255,255,.78) 95%,
+      #fff 100%
+    );
+}
 .hero-machine{display:none}
 
 /* Homepage statistics */
