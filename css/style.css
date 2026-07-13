@@ -213,7 +213,7 @@ img{max-width:100%;display:block}
     linear-gradient(90deg,rgba(255,255,255,.95) 0%,rgba(255,255,255,.60) 10%,rgba(255,255,255,.08) 28%,rgba(255,255,255,0) 100%),
     url("../images/home/hero-warehouse.webp");
   background-size:cover;
-  background-position:center center;
+  background-position:center right;
   background-repeat:no-repeat;
 }
 
