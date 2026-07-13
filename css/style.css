@@ -231,8 +231,8 @@ img{max-width:100%;display:block}
 
 .hero-stat{
   position:relative;
-  min-height:204px;
-  padding:43px 36px;
+  min-height:175px;
+  padding:30px 36px;
   display:flex;
   align-items:flex-start;
   gap:22px;
@@ -246,7 +246,7 @@ img{max-width:100%;display:block}
   content:"→";
   position:absolute;
   right:30px;
-  bottom:26px;
+  bottom:18px;
   color:#6f7e8d;
   font-size:30px;
   font-weight:400;
